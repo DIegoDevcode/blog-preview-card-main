@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body{
+    background-color: #F4D04E;
+    font-family: Figtree;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 150px;
+}
+
+.card-container{
+    width: 327px;
+    height: 501px;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+}
+
+.card-container img{
+    width: 279px;
+    height: 200px;
+    border-radius: 24px;
+    margin: 24px;
+}
+
+.informacion-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Learning{
+    margin-left: 22px;
+    font-size: 12px;
+    background-color: #F4D04E;
+    width: 51px;
+    height: 18px;
+    text-align: center;
+}
+
+.publishdate{
+    margin-left: 22px;
+    font-size: 12px;
+    padding-top: 15px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 22px;
+    color: black;
+    padding-top: 25px;
+}
+
+.title:active{
+    color: #F4D04E;
+}
+
+.descripcion{
+    font-size: 14px;
+    width: 279px;
+    height: 63px;
+    margin-left: 22px;
+}
+
+.author-container{
+    width: 155px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.author-container img{
+    width: 32px;
+    height: 32px;
+}
+
+.authorname{
+    width: 85px;
+    height: 21px;
+    color: black;
+    font-size: 12px;
+    text-align: left;
+}
